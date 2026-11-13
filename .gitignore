@@ -1,0 +1,8 @@
+﻿build/
+vcpkg/
+out/
+.vs/
+*.user
+*.suo
+*.db
+data/tests/usa*
