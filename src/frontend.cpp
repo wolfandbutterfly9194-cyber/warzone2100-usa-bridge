@@ -265,6 +265,11 @@ void runContinue()
 
 bool runTitleMenu()
 {
+	if (bUsaSessionActive)
+	{
+		std::exit(0);
+	}
+
 	if (bUsaPrebattle)
 	{
 		runUsaPrebattleTick();

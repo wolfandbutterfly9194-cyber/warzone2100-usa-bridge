@@ -1,3 +1,4 @@
+#include "usa_metagame_bridge.h"
 /*
 	This file is part of Warzone 2100.
 	Copyright (C) 1999-2004  Eidos Interactive
@@ -2008,6 +2009,8 @@ void intDisplayWidgets()
 	{
 		(desiredRadarVisibility) ? radarWidget->show() : radarWidget->hide();
 	}
+
+	updateUsaInGameHud();
 
 	widgDisplayScreen(psWScreen);
 

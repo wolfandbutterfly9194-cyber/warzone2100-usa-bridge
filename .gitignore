@@ -6,3 +6,9 @@ out/
 *.suo
 *.db
 data/tests/usa*
+
+vcpkg_installed/
+build/
+out/
+*.pdb
+
